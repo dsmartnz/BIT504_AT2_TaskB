@@ -29,7 +29,7 @@
 	  private final static int WINNER_TEXT_Y = 200;
 	  private final static int WINNER_FONT_SIZE = 40;
 	  private final static String WINNER_FONT_FAMILY = "Sans-Serif";
-	  private final static String WINNER_TEXT = "WIN!";
+	  private final static String WINNER_TEXT = "YOU WIN! CONGRATULATIONS!";
 
 
 	  GameState gameState = GameState.Initialising;
@@ -46,7 +46,7 @@
       
       
       
-      private final static int BALL_MOVEMENT_SPEED = 5;
+      private final static int BALL_MOVEMENT_SPEED = 2;
       
       
       private void update() {
