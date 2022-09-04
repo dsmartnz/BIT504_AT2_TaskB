@@ -19,17 +19,17 @@
 
 	  @SuppressWarnings("unused")
 	  private final static Color BACKGROUND_COLOUR = Color.BLACK;
-	  private final static int TIMER_DELAY = 5;
-	  private final static int POINTS_TO_WIN = 3;	  
+	  private final static int TIMER_DELAY = 3;
+	  private final static int POINTS_TO_WIN = 10;	  
 	  private final static int SCORE_TEXT_X = 100;	  
 	  private final static int SCORE_TEXT_Y = 100;
 	  private final static int SCORE_FONT_SIZE = 50;
-	  private final static String SCORE_FONT_FAMILY = "Serif";
+	  private final static String SCORE_FONT_FAMILY = "Sans-Serif";
 	  private final static int WINNER_TEXT_X = 200;
 	  private final static int WINNER_TEXT_Y = 200;
 	  private final static int WINNER_FONT_SIZE = 40;
-	  private final static String WINNER_FONT_FAMILY = "Serif";
-	  private final static String WINNER_TEXT = "WIN!";
+	  private final static String WINNER_FONT_FAMILY = "Sans-Serif";
+	  private final static String WINNER_TEXT = "YOU WIN! CONGRATULATIONS!";
 
 
 	  GameState gameState = GameState.Initialising;
